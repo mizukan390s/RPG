@@ -23,7 +23,7 @@ public abstract class Human extends Living {
 		setOffensive(getOffensive() - 1);
 
 		// コンソールにステータスを表示
-		System.out.printf("\n　「%s」が「%s」で攻撃！「%s」に%sのダメージを与えた。\n", getName(), getWeapon(), target.getName(), damage);
+		System.out.printf("\n　「%s」が「%s」で攻撃！「%s」に%dのダメージを与えた。\n", getName(), getWeapon(), target.getName(), damage);
 
 		System.out.println("しかし自分の攻撃も1減少した。");
 
